@@ -1,0 +1,6 @@
+node_modules/
+server/db/portfolio.db
+server/db/portfolio.db-journal
+server/db/portfolio.db-wal
+server/db/portfolio.db-shm
+.env
