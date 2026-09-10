@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Arunodhayen — Portfolio</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="navbar"><div class="nav-inner"><span class="logo">Arunodhayen</span><nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></div></header>
+<section class="hero"><div class="hero-inner"><h1>Hi, I'm Arunodhayen 👋</h1><p class="hero-sub">Student building AI/ML systems, embedded hardware, and full-stack software.</p><a href="#projects" class="btn-primary">View My Work</a></div></section>
+<section id="about" class="section"><h2>About Me</h2><p>I'm a student working across AI/ML, embedded systems, and software development. My work spans academic research and thesis projects, hackathon builds, and hardware projects involving robotics and electronics. I also enjoy building and shipping digital products.</p></section>
+<section id="skills" class="section alt"><h2>Skills</h2><div id="skills-container" class="skills-grid"><p class="loading">Loading skills…</p></div></section>
+<section id="projects" class="section"><h2>Projects</h2><div id="projects-container" class="projects-grid"><p class="loading">Loading projects…</p></div><details class="add-project"><summary>+ Add a new project</summary><form id="project-form"><input type="text" name="title" placeholder="Project title" required /><textarea name="description" placeholder="Short description" required></textarea><input type="text" name="tech_stack" placeholder="Tech stack (comma-separated)" required /><input type="url" name="repo_url" placeholder="Repository URL (optional)" /><input type="url" name="live_url" placeholder="Live URL (optional)" /><label class="checkbox-label"><input type="checkbox" name="featured" /> Featured project</label><button type="submit" class="btn-primary">Save Project</button><p id="project-form-status"></p></form></details></section>
+<section id="contact" class="section alt"><h2>Get In Touch</h2><form id="contact-form" class="contact-form"><input type="text" name="name" placeholder="Your name" required /><input type="email" name="email" placeholder="Your email" required /><textarea name="message" placeholder="Your message" required></textarea><button type="submit" class="btn-primary">Send Message</button><p id="contact-form-status"></p></form></section>
+<footer><p>&copy; <span id="year"></span> Arunodhayen. Built with HTML, CSS, JS, Node.js/Express &amp; SQLite.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
